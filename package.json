@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy-page": "ng build && gh-pages -d dist"
+    "deploy-page": "ng build && gh-pages -d dist/my-port/browser"
   },
   "private": true,
   "dependencies": {
